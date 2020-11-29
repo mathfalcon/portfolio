@@ -1,0 +1,129 @@
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin: 0 50px;
+}
+.icons {
+  height: 100%;
+  font-size: 40px;
+  color: #151515;
+  line-height: 80px;
+  transition: 0.5s;
+}
+ul li a {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  text-align: center;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+ul li a::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #151515;
+  transition: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #151515;
+  transition: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+ul li a:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg)
+    translate(20px, -20px);
+}
+.contact-title {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 3vw;
+  color: #ffa270;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
+  font-family: Orbitron;
+  transition: .5s;
+}
+.contact-title:hover {
+  color: #151515;
+
+}
+
+ul li:nth-child(1) a:hover{
+    background-color: #24292e;
+}
+ul li:nth-child(2) a:hover{
+    background-color: #55acee;
+}
+ul li:nth-child(3) a:hover{
+    background-color: #dd4b39;
+}
+ul li:nth-child(4) a:hover{
+    background-color: #0077B5;
+}
+ul li:nth-child(5) a:hover{
+    background-color: #e4405f;
+}
+ul li:hover .git{
+    color: whitesmoke;
+}
+ul li:hover .tw{
+    color: whitesmoke;
+}
+ul li:hover .mail{
+    color: whitesmoke;
+}
+ul li:hover .ln{
+    color: whitesmoke;
+}
+ul li:hover .ig{
+    color: whitesmoke;
+}
+.title2{
+  font-size: 1.5vw;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  ul{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    flex-wrap: wrap;
+  }
+  ul li{
+    margin-top: 10vw;
+  }
+  .contact-title{
+    font-size: 8vw;
+    text-align: center;
+    width: 80%;
+  }
+  .title2{
+    font-size: 4vw;
+  }
+}

@@ -1,0 +1,73 @@
+.container-404 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffa270;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  background-color: #151515;
+  overflow: hidden;
+  color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sliding {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 6vw;
+  line-height: 1ch;
+  overflow: hidden;
+  font-family: Orbitron;
+  animation: animate 10s linear infinite;
+}
+.divider-404 {
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+.back-buttons-404 {
+  width: 12.5%;
+  position: absolute;
+  bottom: 5%;
+  height: 10%;
+  left: 43.5%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #151515;
+  font-size: 2rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    277deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(226, 226, 226, 1) 89%
+  );
+  border-radius: 2.5%;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: Orbitron;
+}
+.back-buttons-404:hover {
+  transform: scale(1.1);
+  color: #ffa270;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(250%);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}

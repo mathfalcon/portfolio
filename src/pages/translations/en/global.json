@@ -1,0 +1,38 @@
+{
+    "landing":{
+        "title": "Hi there! My name is <strong>Mathías Falcón</strong> and I am a <strong>Full Stack Dev.</strong>"
+    },
+    "nav":{
+        "home": "Home",
+        "about": "About Me",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "about":{
+        "title": "About Me",
+        "bio": "Lorem Ipsum es <strong>simplemente el texto de relleno</strong> de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+        "skills-title": "Tech Stack",
+        "experience-title": "Experience",
+        "experience": "...",
+        "soft-skills-title": "Soft Skills",
+        "soft-skills-1": "Leadership",
+        "soft-skills-2": "Teamwork",
+        "soft-skills-3": "Time Managment"
+    },
+    "projects":{
+        "title": "Projects",
+        "project-1-title": "Ecommerce Web App",
+        "project-1-description": "The point of this project consisted on creating an online store of any merchandise we choose. <br /><br /> The project itself it's written in Spanish because not all team members knew how to speak English.",
+        "project-2-title": "Fintech Mobile App",
+        "project-2-description": "This project consisted in creating a Fintech App using React Native complemented with an microservice architecture API.",
+        "github-button": "Repository"
+    },
+    "contact":{
+        "title": "Feel Free to Contact Me",
+        "subtitle": "I will get back to you as soon as posible :)",
+        "alert": "My email adress has been copied to your clipboard!"
+    },
+    "404":{
+        "btn": "Go Home"
+    }
+}

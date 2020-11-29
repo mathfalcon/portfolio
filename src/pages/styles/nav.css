@@ -1,0 +1,105 @@
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  font-family: "Orbitron", sans-serif;
+  align-items: center;
+  color: #151515;
+  letter-spacing: 0.1em;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 1vw;
+  -webkit-animation: no-transform 2s 5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  animation: no-transform 2s 5s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+
+.left {
+  flex: 2;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  flex: 6;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.center div {
+  height: 2vw;
+  width: 4vw;
+  font-size: 1vw;
+  margin-right: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #151515 solid;
+  cursor: pointer;
+  transition: .5s;
+}
+.center div:hover {
+  color: #ffa270;
+  border: 1px #ffa270 solid;
+}
+
+.right {
+  flex: 4;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a:hover {
+  transition: 0.25s ease-out;
+  opacity: 0.8;
+  border-bottom: 5px solid #151515;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: row;
+    height: 15%;
+    flex-wrap: wrap;
+  }
+  .left{
+    width: 50%;
+    flex: none;
+    height: 45%;
+    font-size: 3.5vw;
+  }
+  .center{
+    width: 50%;
+    flex: none;
+    height: 45%;
+    justify-content: flex-end;
+  }
+  .right{
+    height: 55%;
+    flex: none;
+    width: 100%;
+    font-size: 3.5vw;
+    
+  }
+  .right span{
+    border-right: #151515 2px solid;
+    padding-right: 5%;
+  }
+  .right span:last-child{
+    border-right: none;
+    padding-right: 0%;
+  }
+  .center div {
+    height: 80%;
+    width: 15vw;
+    margin-right: 8vw;
+    font-size: 3.5vw;
+  }
+  .center div:last-child {
+    margin-right: 0vw;
+  }
+}

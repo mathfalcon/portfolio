@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+
+.about-me-title {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-me-title h1 {
+  width: 100%;
+  font-size: 3vw;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2);
+  font-family: Orbitron;
+  transition: 1s;
+  cursor: default;
+}
+.about-me-title h1:hover {
+  color: whitesmoke;
+}
+.about-me-title div {
+  height: 45%;
+  width: 45%;
+  margin-left: 1em;
+  display: flex;
+}
+.about-me-title p {
+  color: whitesmoke;
+  padding-left: 2em;
+  height: 100%;
+  text-align: left;
+  font-size: 0.9vw;
+  font-family: "Poppins", sans-serif;
+  align-self: center;
+  overflow: hidden;
+}
+.about-me-title p strong {
+  color: #ffa270;
+}
+.about-photo {
+  border-radius: 2.5%;
+  background: url("../assets/images/noa.jpg") no-repeat;
+  background-position: center;
+  background-size: 150% auto;
+  width: 5em;
+  height: 45%;
+}
+
+.infoBlock {
+  height: 75%;
+  width: 33.3%;
+  border-right: 3px solid rgba(255, 162, 112, 0.5);
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+  font-size: 0.9vw;
+  flex-direction: column;
+  align-items: center;
+}
+.infoBlock:last-child {
+  border: none;
+}
+
+.skills {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-description{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.skill-container{
+  overflow: auto;
+  width: 80%;
+  padding: 0 15px;
+}
+.skill-container::-webkit-scrollbar {
+  width: 2px;
+  background-color: #151515;
+}
+
+.skill-container::-webkit-scrollbar-thumb {
+  background:whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me-title{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+    z-index: 150;
+    height: 40%;
+  }
+  .about-me-title h1{
+    font-size: 8vw;
+    height: 10%;
+    width: 100%;
+  }
+  .about-photo{
+    display: inline-block;
+    height: 35%;
+    width: 80%;
+    box-sizing: border-box;
+    filter: grayscale(0.25);
+  }
+  .about-me-title p{
+    padding-left: 0;
+    height: 55%;
+    width: 100%;
+    font-size: 3.5vw;
+    overflow: auto;
+    padding-right: 10px;
+  }
+  .about-me-title div {
+    height: 60%;
+    width: 80%;
+  }
+  .skills{
+    flex-direction: column;
+    height: 60%;
+  }
+  .infoBlock{
+    width: 100%;
+    border-right: none;
+    border-bottom: 3px solid rgba(255, 162, 112, 0.5);
+    font-size: 3vw;
+    height: 40%;
+    padding-bottom: 30px;
+  }
+  .about-me-title p::-webkit-scrollbar {
+    width: 2px;
+    background-color: #151515;
+  }
+  
+  .about-me-title p::-webkit-scrollbar-thumb {
+    background:whitesmoke;
+  }
+}

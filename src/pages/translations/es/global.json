@@ -1,0 +1,38 @@
+{
+  "landing": {
+    "title": "¡Hola! Mi nombre es <strong>Mathías Falcón</strong> y soy <strong>Desarrollador Full Stack.</strong>"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mi",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre Mi",
+    "bio": "Lorem Ipsum es <strong>simplemente el texto de relleno</strong> de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+    "skills-title": "Habilidades Técnicas",
+    "experience-title": "Experiencia Laboral",
+    "experience": "...",
+    "soft-skills-title": "Habilidades Blandas",
+    "soft-skills-1": "Liderazgo",
+    "soft-skills-2": "Trabajo en Equipo",
+    "soft-skills-3": "Manejo del tiempo"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "project-1-title": "Aplicación Web Ecommerce",
+    "project-1-description": "El objetivo de este proyecto consistía en crear una tienda digital de cualquier mercancía a nuestra elección.<br /><br /> El proyecto esta desarrollado en Español ya que no todos los miembros del equipo hablaban Inglés.",
+    "project-2-title": "Aplicación Móvil Fintech",
+    "project-2-description": "Este proyecto consistió en crear una aplicación móvil Fintech (billetera electrónica) utilizando React Native y complementado por una API estructurada como microservicios.",
+    "github-button": "Repositorio"
+  },
+  "contact": {
+    "title": "Siéntete Libre de Contactarme",
+    "subtitle": "Te responderé lo mas pronto posible :)",
+    "alert": "¡Mi dirección de e-mail fue copiada a tu portapapeles!"
+  },
+  "404": {
+    "btn": "Volver al Inicio"
+  }
+}

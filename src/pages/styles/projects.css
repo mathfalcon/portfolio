@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container h2 {
+  width: 100%;
+  font-size: 3vw;
+  color: transparent;
+  background: #151515;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+  font-family: Orbitron;
+  transition: 1s;
+  cursor: default;
+  height: 7.5%;
+  text-align: center;
+}
+.container .box {
+  position: relative;
+  width: 50%;
+  height: 70%;
+  border-right: 10px solid whitesmoke;
+}
+.container .box:last-child {
+  border-right: none;
+}
+
+.container .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  opacity: 1;
+  filter: grayscale(0.5);
+}
+.infoBx {
+  font-family: "Orbitron", sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1vw;
+  padding: 0 25%;
+  text-shadow: 2px 7px 13px rgba(0, 0, 0, 0.6);
+}
+.infoBx p {
+  font-family: "Poppins", sans-serif;
+}
+
+.container .box .imgBx.active {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  height: calc(100% - 200px);
+  width: calc(100% - 200px);
+  z-index: 1000;
+  opacity: 1;
+}
+.container .box .imgBx:hover {
+  opacity: 0.1;
+  filter: grayscale(0.25);
+}
+.imgBx:hover .infoBx {
+  color: red;
+}
+
+.container .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gitLink {
+  position: relative;
+  margin: auto;
+  background-color: #24292e;
+  color: #f6f8fa;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  box-sizing: border-box;
+  font-family: Poppins;
+  margin-top: 1em;
+  border-radius: 2.5%;
+  transition: 0.5s;
+}
+.iconsProject {
+  font-size: 20px;
+  color: #f6f8fa;
+}
+.gitLink p {
+  color: #f6f8fa;
+}
+.gitLink:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 28px 5px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 28px 5px rgba(0, 0, 0, 0.29);
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    flex-direction:column ;
+    justify-content: flex-start;
+  }
+  .container h2 {
+    width: 100%;
+    font-size: 8vw;
+  }
+  .container .box{
+    width: 100%;
+    height: 25%;
+    border-right: none;
+    margin-bottom: 100px;
+  }
+  .infoBx{
+    font-size: 2.5vw;
+  }
+}
