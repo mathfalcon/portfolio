@@ -10,14 +10,25 @@
     },
     "about":{
         "title": "About Me",
-        "bio": "Lorem Ipsum es <strong>simplemente el texto de relleno</strong> de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+        "cv": "DOWNLOAD CV",
+        "bio": "I am 19 years old, I live in Montevideo, Uruguay and I am a Systems Engineering student. I am a high school graduate with engineering orientation which focuses on physics and mathematics. I currently work as a <strong> Full Stack Web Developer </strong> in a Freelance way, <strong>looking for a permanent job opportunity. </strong>",
         "skills-title": "Tech Stack",
         "experience-title": "Experience",
         "experience": "...",
         "soft-skills-title": "Soft Skills",
         "soft-skills-1": "Leadership",
         "soft-skills-2": "Teamwork",
-        "soft-skills-3": "Time Managment"
+        "soft-skills-3": "Time Managment",
+        "experience1":{
+            "title":"Full Stack Developer - Freelancer",
+            "period": "October 2020 - Present",
+            "description": "I work as a Web Full Stack Developer, in a freelancer way while I look for a permanent job offer."
+          },
+          "experience2":{
+            "title":"Professional DJ - Freelancer",
+            "period": "May 2017 - April 2020",
+            "description": "I used to work as a professional DJ in my free time, playing at most popular Uruguay's nightclubs and in private events."
+          }
     },
     "projects":{
         "title": "Projects",

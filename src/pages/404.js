@@ -1,9 +1,8 @@
 import React from "react"
-import { useTranslation } from "react-i18next"
 import "./styles/404.css"
 
 export default function Nav() {
-  const [t] = useTranslation("global")
+
   return (
     <div className="container-404">
       <div className="divider-404">
@@ -24,7 +23,7 @@ export default function Nav() {
         className="back-buttons-404"
         onClick={() => (window.location.href = "/")}
       >
-        <h1>{t("404.btn")}</h1>
+        <h1>HOME</h1>
       </div>
     </div>
   )

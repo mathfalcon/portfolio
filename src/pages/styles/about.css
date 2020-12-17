@@ -35,7 +35,7 @@
   text-align: left;
   font-size: 0.9vw;
   font-family: "Poppins", sans-serif;
-  align-self: center;
+  align-self: baseline;
   overflow: hidden;
 }
 .about-me-title p strong {

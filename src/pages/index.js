@@ -7,6 +7,8 @@ import Contact from "./components/contact"
 import Landing from "./components/landing"
 import { I18nextProvider } from "react-i18next"
 import i18next from "i18next"
+import { Helmet } from "react-helmet"
+import metaPhoto from './assets/images/images.jpg'
 
 import global_es from "./translations/es/global.json"
 import global_en from "./translations/en/global.json"
@@ -26,7 +28,6 @@ i18next.init({
 
 function App() {
   const [storedLang, setStoredLang] = useState(false)
-
   useEffect(() => {
     const store = localStorage.getItem("localLang")
     if (store) {
@@ -37,6 +38,17 @@ function App() {
 
   return (
     <I18nextProvider i18n={i18next}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Mathías Falcón — Full Stack Developer</title>
+        <link rel="canonical" href="https://mathfalcon.github.io/portfolio/" />
+        <meta property="og:title" content="Mathías Falcón — Full Stack Developer" />
+        <meta property="og:description" content="Hey! I am Mathías and I work as a Full Stack Dev, check out my portfolio!" />
+        <meta property="og:type" content="webiste" />
+        <meta name="description" content="Hey! I am Mathías and I work as a Full Stack Dev, check out my portfolio!" />
+        <meta property='og:url' content='https://mathfalcon.github.io/portfolio/'/>
+        <meta property='og:image' content={metaPhoto}/>
+      </Helmet>
       <div className="intro">
         <div className="intro-text">
           <h1 className="hide">
@@ -54,7 +66,7 @@ function App() {
                     "js-loading",
                     ""
                   )
-                  i18next.changeLanguage('en')
+                  i18next.changeLanguage("en")
                   localStorage.setItem("localLang", "en")
                 }}
               >
@@ -72,7 +84,7 @@ function App() {
                     "js-loading",
                     ""
                   )
-                  i18next.changeLanguage('es')
+                  i18next.changeLanguage("es")
                   localStorage.setItem("localLang", "es")
                 }}
               >

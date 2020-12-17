@@ -10,14 +10,25 @@
   },
   "about": {
     "title": "Sobre Mi",
-    "bio": "Lorem Ipsum es <strong>simplemente el texto de relleno</strong> de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+    "cv": "DESCARGAR CV",
+    "bio": "Tengo 19 años, vivo en Montevideo, Uruguay y soy estudiante de Ingeniería en Sistemas. Estoy graduado de un bachillerato de ingeniería el cual se enfocaba en física y matemática. Actualmente trabajo como <strong>Desarrollador Web Full Stack</strong> de manera Freelance <strong>a la espera de una oportunidad laboral permanente.</strong>",
     "skills-title": "Habilidades Técnicas",
     "experience-title": "Experiencia Laboral",
     "experience": "...",
     "soft-skills-title": "Habilidades Blandas",
     "soft-skills-1": "Liderazgo",
     "soft-skills-2": "Trabajo en Equipo",
-    "soft-skills-3": "Manejo del tiempo"
+    "soft-skills-3": "Manejo del tiempo",
+    "experience1":{
+      "title":"Desarrollador Full Stack Freelancer",
+      "period": "Octubre 2020 - Presente",
+      "description": "Trabajo de manera Freelancer como desarrollador Full Stack, a la espera de una oferta laboral."
+    },
+    "experience2":{
+      "title":"DJ Profesional Freelancer",
+      "period": "Mayo 2017 - Abril 2020",
+      "description": "Solía trabajar como DJ profesional en mi tiempo libre de manera freelance tocando en clubes nocturnos y eventos privados."
+    }
   },
   "projects": {
     "title": "Proyectos",

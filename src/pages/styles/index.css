@@ -440,7 +440,8 @@ a:visited {
   }
   .mainLeft p {
     border-left: #151515 5px solid;
-    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
   }
   .mainRight {
     padding-bottom: 0px;
@@ -457,10 +458,24 @@ a:visited {
     height: 60vw;
     z-index: 1;
   }
-  .infoScroll{
+  .infoScroll {
     height: 250vh;
   }
-  .projects{
+  .projects {
     height: 110vh;
+  }
+  .intro-text {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .langBtn .btn {
+    font-size: 3vw;
+    width: 40%;
+  }
+  .langBtn .helper {
+    font-size: 3vw;
+  }
+  .contact{
+    height: 100%;
   }
 }
