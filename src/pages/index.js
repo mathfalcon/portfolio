@@ -97,7 +97,7 @@ function App() {
           )}
         </div>
       </div>
-      <div className="slider"></div>
+      <div className="slider" id="first"></div>
       <section className="app section">
         <Nav />
         <Landing />

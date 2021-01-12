@@ -3,8 +3,9 @@ import "../styles/index.css"
 import "../styles/projects.css"
 import henryBank from "../assets/images/henrybank.jpeg"
 import henryStore from "../assets/images/henrystore.jpeg"
+import skylearn from "../assets/images/skylearn.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { useTranslation } from "react-i18next"
 
 export default function Projects() {
@@ -67,6 +68,34 @@ export default function Projects() {
               aria-hidden="true"
             />
             <p>{t('projects.github-button')}</p>
+          </a>
+        </div>
+        <div className="box">
+          <div className="imgBx">
+            <img src={skylearn} alt="Skylearn" />
+          </div>
+          <div className="infoBx">
+            <h1>{t("projects.project-3-title")}</h1>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: t("projects.project-3-description", {
+                  interpolation: { escapeValue: false },
+                }),
+              }}
+            ></p>
+          </div>
+          <a
+            className="gitLink"
+            href="https://www.youtube.com/watch?v=Cs7I4cYwQX0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              className="iconsProject"
+              icon={faYoutube}
+              aria-hidden="true"
+            />
+            <p>{t('projects.youtube-button')}</p>
           </a>
         </div>
       </div>

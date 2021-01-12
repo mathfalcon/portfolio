@@ -1,49 +1,57 @@
 {
-    "landing":{
-        "title": "Hi there! My name is <strong>Mathías Falcón</strong> and I am a <strong>Full Stack Dev.</strong>"
+  "landing": {
+    "title": "Hi there! My name is <strong>Mathías Falcón</strong> and I am a <strong>Full Stack Dev.</strong>"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "cv": "DOWNLOAD CV",
+    "bio": "I am 19 years old, I live in Montevideo, Uruguay and I am a Systems Engineering student. I am a high school graduate with engineering orientation which focuses on physics and mathematics. I currently work as a <strong> Full Stack Web Developer </strong> in a Freelance way, <strong>looking for a permanent job opportunity. </strong>",
+    "skills-title": "Tech Stack",
+    "experience-title": "Experience",
+    "experience": "...",
+    "soft-skills-title": "Soft Skills",
+    "soft-skills-1": "Leadership",
+    "soft-skills-2": "Teamwork",
+    "soft-skills-3": "Time Managment",
+    "experience3": {
+      "title": "Full Stack Junior Developer at VAIRIX",
+      "period": "Jan 2021 - Present",
+      "description": "My tasks consist on developing software for VAIRIX which works with USA clients."
     },
-    "nav":{
-        "home": "Home",
-        "about": "About Me",
-        "projects": "Projects",
-        "contact": "Contact"
+    "experience1": {
+      "title": "Full Stack Developer - Freelancer",
+      "period": "October 2020 - Jan 2021",
+      "description": "I worked as a Web Full Stack Developer, in a freelancer way while I look for a permanent job offer."
     },
-    "about":{
-        "title": "About Me",
-        "cv": "DOWNLOAD CV",
-        "bio": "I am 19 years old, I live in Montevideo, Uruguay and I am a Systems Engineering student. I am a high school graduate with engineering orientation which focuses on physics and mathematics. I currently work as a <strong> Full Stack Web Developer </strong> in a Freelance way, <strong>looking for a permanent job opportunity. </strong>",
-        "skills-title": "Tech Stack",
-        "experience-title": "Experience",
-        "experience": "...",
-        "soft-skills-title": "Soft Skills",
-        "soft-skills-1": "Leadership",
-        "soft-skills-2": "Teamwork",
-        "soft-skills-3": "Time Managment",
-        "experience1":{
-            "title":"Full Stack Developer - Freelancer",
-            "period": "October 2020 - Present",
-            "description": "I work as a Web Full Stack Developer, in a freelancer way while I look for a permanent job offer."
-          },
-          "experience2":{
-            "title":"Professional DJ - Freelancer",
-            "period": "May 2017 - April 2020",
-            "description": "I used to work as a professional DJ in my free time, playing at most popular Uruguay's nightclubs and in private events."
-          }
-    },
-    "projects":{
-        "title": "Projects",
-        "project-1-title": "Ecommerce Web App",
-        "project-1-description": "The point of this project consisted on creating an online store of any merchandise we choose. <br /><br /> The project itself it's written in Spanish because not all team members knew how to speak English.",
-        "project-2-title": "Fintech Mobile App",
-        "project-2-description": "This project consisted in creating a Fintech App using React Native complemented with an microservice architecture API.",
-        "github-button": "Repository"
-    },
-    "contact":{
-        "title": "Feel Free to Contact Me",
-        "subtitle": "I will get back to you as soon as posible :)",
-        "alert": "My email adress has been copied to your clipboard!"
-    },
-    "404":{
-        "btn": "Go Home"
+    "experience2": {
+      "title": "Professional DJ - Freelancer",
+      "period": "May 2017 - April 2020",
+      "description": "I used to work as a professional DJ in my free time, playing at most popular Uruguay's nightclubs and in private events."
     }
+  },
+  "projects": {
+    "title": "Projects",
+    "project-1-title": "Ecommerce Web App",
+    "project-1-description": "The point of this project consisted on creating an online store of any merchandise we choose. <br /><br /> The project itself it's written in Spanish because not all team members knew how to speak English.",
+    "project-2-title": "Fintech Mobile App",
+    "project-2-description": "This project consisted in creating a Fintech App using React Native complemented with an microservice architecture API.",
+    "project-3-title": "Educational Web App 'Skylearn'",
+    "project-3-description": "This project's objective is to make easier for schools and college to start teaching remotely. (In development)",
+    "github-button": "Repository",
+    "youtube-button": "Video"
+  },
+  "contact": {
+    "title": "Feel Free to Contact Me",
+    "subtitle": "I will get back to you as soon as posible :)",
+    "alert": "My email adress has been copied to your clipboard!"
+  },
+  "404": {
+    "btn": "Go Home"
+  }
 }

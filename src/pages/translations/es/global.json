@@ -19,9 +19,14 @@
     "soft-skills-1": "Liderazgo",
     "soft-skills-2": "Trabajo en Equipo",
     "soft-skills-3": "Manejo del tiempo",
+    "experience3": {
+      "title": "Full Stack Junior Developer en VAIRIX",
+      "period": "Ene 2021 - Presente",
+      "description": "Mis tareas consisten en desarrollar software para VAIRIX quien trabaja con empresas de USA."
+    },
     "experience1":{
       "title":"Desarrollador Full Stack Freelancer",
-      "period": "Octubre 2020 - Presente",
+      "period": "Octubre 2020 - Ene 20212",
       "description": "Trabajo de manera Freelancer como desarrollador Full Stack, a la espera de una oferta laboral."
     },
     "experience2":{
@@ -36,7 +41,10 @@
     "project-1-description": "El objetivo de este proyecto consistía en crear una tienda digital de cualquier mercancía a nuestra elección.<br /><br /> El proyecto esta desarrollado en Español ya que no todos los miembros del equipo hablaban Inglés.",
     "project-2-title": "Aplicación Móvil Fintech",
     "project-2-description": "Este proyecto consistió en crear una aplicación móvil Fintech (billetera electrónica) utilizando React Native y complementado por una API estructurada como microservicios.",
-    "github-button": "Repositorio"
+    "project-3-title": "Aplicación Web Educacional Skylearn",
+    "project-3-description": "Este proyecto que aun esta en desarrollo tiene como objetivo facilitarles a las instituciones educativas a adaptarse a la educación remota.",
+    "github-button": "Repositorio",
+    "youtube-button": "Video"
   },
   "contact": {
     "title": "Siéntete Libre de Contactarme",

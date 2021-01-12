@@ -4,18 +4,26 @@ import "../styles/index.css"
 import "../styles/about.css"
 import { useTranslation } from "react-i18next"
 import WorkCard from "./work-experience-card"
-import Button from '@material-ui/core/Button';
-import GetAppIcon from '@material-ui/icons/GetApp';
-import escv from '../assets/CV/es.pdf'
-import encv from '../assets/CV/en.pdf'
+import Button from "@material-ui/core/Button"
+import GetAppIcon from "@material-ui/icons/GetApp"
+import escv from "../assets/CV/es.pdf"
+import encv from "../assets/CV/en.pdf"
 
 var skills = [
   {
-    name: "React - React Native",
+    name: "React - React Native - Next JS",
+    level: 4,
+  },
+  {
+    name: "Nest JS",
     level: 4,
   },
   {
     name: "Javascript",
+    level: 4,
+  },
+  {
+    name: "REST/Graph QL",
     level: 4,
   },
   {
@@ -26,10 +34,7 @@ var skills = [
     name: "CSS",
     level: 4,
   },
-  {
-    name: "REST API",
-    level: 4,
-  },
+
   {
     name: "Material UI",
     level: 4,
@@ -63,6 +68,10 @@ var skills = [
     level: 3,
   },
   {
+    name: "WebSockets",
+    level: 3,
+  },
+  {
     name: "Adobe XD",
     level: 3,
   },
@@ -80,7 +89,7 @@ var skills = [
   },
 ]
 export default function About() {
-  const [t,i18n] = useTranslation("global")
+  const [t, i18n] = useTranslation("global")
   return (
     <Fragment>
       <div className="about-me-title">
@@ -96,15 +105,15 @@ export default function About() {
           />
         </div>
         <Button
-            variant="contained"
-            color="default"
-            startIcon={<GetAppIcon />}
-            style={{backgroundColor:'#ffa26d'}}
-            href={i18n.language === 'es' ? escv : encv}
-            target='_blank'
-          >
-            {t("about.cv")}
-          </Button>
+          variant="contained"
+          color="default"
+          startIcon={<GetAppIcon />}
+          style={{ backgroundColor: "#ffa26d" }}
+          href={i18n.language === "es" ? escv : encv}
+          target="_blank"
+        >
+          {t("about.cv")}
+        </Button>
       </div>
       <div className="skills">
         <div className="infoBlock">
@@ -127,6 +136,11 @@ export default function About() {
               overflow: "auto",
             }}
           >
+            <WorkCard
+              period={t("about.experience3.period")}
+              title={t("about.experience3.title")}
+              description={t("about.experience3.description")}
+            />
             <WorkCard
               period={t("about.experience1.period")}
               title={t("about.experience1.title")}

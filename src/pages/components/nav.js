@@ -31,7 +31,7 @@ export default function Nav() {
       </div>
       <div className="right">
         <span className="animate-pop-in">
-          <a href="#">{t("nav.home")}</a>
+          <a href="#first">{t("nav.home")}</a>
         </span>
         <span className="animate-pop-in">
           <a href="#second">{t("nav.about")}</a>

@@ -22,8 +22,8 @@ export default function Contact() {
   const [t] = useTranslation("global")
 
   const handleClick = async () => {
-    setOpen(true)
     await navigator.clipboard.writeText("mathfalcondj@gmail.com")
+    setOpen(true)
   }
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
@@ -103,9 +103,7 @@ export default function Contact() {
           </a>
         </li>
       </ul>
-      <h1 className="contact-title title2" >
-        {t("contact.subtitle")}
-      </h1>
+      <h1 className="contact-title title2">{t("contact.subtitle")}</h1>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
         <Alert onClose={handleClose} severity="success">
           {t("contact.alert")}
